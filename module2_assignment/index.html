@@ -1,69 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>My assignment2</title>
 
-	<title>Media Queries</title>
-	<link rel="stylesheet" href="style.css">
-	<style>
-		
-	*{
-		box-sizing: border-box;
-	}
-	h1{
-		margin-bottom:70px;
-		margin-top: 100px;
-		text-align: center;
-	}
-	
-	p{
-		border:1px solid black;
-		background-color: gray;
-		width:90%;
-		height:150px;
-		margin-right:auto;
-		margin-left:auto;
-		font-family: montype corsiva;
-		color:black;
-	}
-	.row{
-		width:100%;
-	}
-		@media(min-width:992px){
-			.col-lg-4{
-				float:left;
-				width:33.33%;
-				border:1px solid green;
-			}
-			
-			
-		}
-		@media(min-width:768px)and(max-width:991px){
-			.col-md-6{
-				
-				width:50%;				
-			
-			}
-
-		}
-
-	</style>
-	
 </head>
 <body>
 	<h1>Our Menu</h1>
-	<div class="row">
-		
-		<div class="col-lg-4 col-md-6"><p>XML Certificate
-W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2018 by Refsnes Data. All Rights Reserved</p></div>
-		<div class="col-lg-4 col-md-6"><p>XML Certificate
-W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2018 by Refsnes Data. All Rights Reserved</p></div>
+	<div class="Menu">
+		<div class="row col-lg-4 col-md-6">
+			<div class="food">
+				<div class="foodtype" id="chicken">Chicken</div>
+				<p>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, humanities, medicine, biology, social sciences, mathematics, business, computer science, digital marketing, data science, and others.</p>
+			</div>
+		</div>
+		<div class="row col-lg-4 col-md-6">
+			<div class="food">
+				<div class="foodtype" id="beef">Beef</div>
+				<p>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, humanities, medicine, biology, social sciences, mathematics, business, computer science, digital marketing, data science, and others.
+				</p>
+			</div>
+		</div>
+		<div class="row col-lg-4 col-md-12">
+			<div class="food">
+				<div id="sushi" class="foodtype">Sushi</div>
+				<p>Coursera works with universities and other organizations to offer online courses, specializations, and degrees in a variety of subjects, such as engineering, humanities, medicine, biology, social sciences, mathematics, business, computer science, digital marketing, data science, and others.
+				</p>
+			</div>
+		</div>
+	</div>
 
-		<div id="lol"><div class="col-lg-4 col-md-6"><p>XML Certificate
-W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2018 by Refsnes Data. All Rights Reserved</p></div>
-	</div>	
-	</div>	
+
 </body>
 </html>
-
-
